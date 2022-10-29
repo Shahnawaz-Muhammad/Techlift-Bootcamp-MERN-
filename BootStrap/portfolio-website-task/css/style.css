@@ -392,12 +392,71 @@ footer .container form input[type=submit] {
     color: gray;
 }
 
-
-
-
-
-
-
-.services {
+/* --------------------- */
+.services , .contact, .portfolio {
     margin-top: 100px;
+}
+/* --------------------- */
+
+/*------------ contact page -------------- */
+
+.contact .container {
+    background-color: #F5F5FF;
+    padding: 50px 30px;
+}
+
+.contact h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contact .contacts-inner {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    align-items: center;
+    padding: 10px 6px;
+}
+
+.contact .contacts-inner .contact-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #F5F5FF;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .contacts-inner i {
+    font-size: 1.4rem;
+    color: #5AB994;
+}
+
+.contact .contacts-inner .contact-data {
+    width: 90%;
+}
+
+.contact .contact-form {
+    margin-top: 20px;
+    padding: 20px 10px;
+    background-color: #fff; 
+}
+
+/* Portfolio */
+.portfolio #portfolio-flters {
+    display: flex;
+    flex-direction: row;
+}
+
+.portfolio #portfolio-flters li{
+    list-style: none;
+    margin: 0 3px ;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.portfolio .portfolio-container{
+    background-color: #F5F5FF;
 }
